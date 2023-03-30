@@ -5,7 +5,7 @@ GNU GENERAL PUBLIC LICENSE
 Aeden Moylan
 
 3. How to install project
-right click on the folder "Lab1" and click "Open In Terminal"
+right click on the folder "Lab2" and click "Open In Terminal"
 in the terminal type ./output which will run the project.
 
 4. List of any required Libraries, platform issues, etc.
@@ -15,8 +15,7 @@ c++
 
 6. List of files and what they contain
 makefile: used to compile the files.
-signal.cpp acts as the main file that demonstrates the use of threading. 2 threads are made,
-each thread outputs a different message.threadOne message displays instantly, however threadTwo message displays after 5 seconds. This demonstrates the use of threading as the rest of the main was able to run as threadTwo was running seperately.
+main.cpp is used to demonstrate the rendevous pattern
 Semaphore.h and Semaphore.cpp are used to control access to a common resource by the threads.
 README(You are Reading it)
 output: this is the text file that is used as the executable
