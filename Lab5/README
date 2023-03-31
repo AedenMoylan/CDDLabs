@@ -1,0 +1,25 @@
+1. Project Licence
+GNU GENERAL PUBLIC LICENSE
+
+2. Authors of Project
+Aeden Moylan
+
+3. How to install project
+# project does not run
+right click on the folder "Lab5" and click "Open In Terminal"
+in the terminal type ./output which will run the project.
+
+4. List of any required Libraries, platform issues, etc.
+c++
+
+5. TO DO section listing items that need to be completed (errors, missing features etc.)
+
+6. List of files and what they contain
+Event.h:
+SafeBuffer:
+makefile: used to compile the files.
+main.cpp is used mostly to call the barrier class functions to demonstrate barriers
+Semaphore.h and Semaphore.cpp are used to control access to a common resource by the threads.
+README(You are Reading it)
+
+7. Any other relevent information
