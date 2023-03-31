@@ -1,0 +1,41 @@
+\hypertarget{classBarrier}{}\doxysection{Barrier Class Reference}
+\label{classBarrier}\index{Barrier@{Barrier}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBarrier_a7290fb8952d0f7779b8d6a7a34bbd407}{Barrier}} (int num\+Threads)
+\item 
+virtual \mbox{\hyperlink{classBarrier_a401f40e73302009b305904ffc7825304}{$\sim$\+Barrier}} ()
+\item 
+void \mbox{\hyperlink{classBarrier_a83a9d2e85e98b3d2081538bf0da29b60}{wait}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classBarrier_a7290fb8952d0f7779b8d6a7a34bbd407}\label{classBarrier_a7290fb8952d0f7779b8d6a7a34bbd407}} 
+\index{Barrier@{Barrier}!Barrier@{Barrier}}
+\index{Barrier@{Barrier}!Barrier@{Barrier}}
+\doxysubsubsection{\texorpdfstring{Barrier()}{Barrier()}}
+{\footnotesize\ttfamily Barrier\+::\+Barrier (\begin{DoxyParamCaption}\item[{int}]{num\+Of\+Threads }\end{DoxyParamCaption})}
+
+barrier constructor sets the number of threads and the count to zero \mbox{\Hypertarget{classBarrier_a401f40e73302009b305904ffc7825304}\label{classBarrier_a401f40e73302009b305904ffc7825304}} 
+\index{Barrier@{Barrier}!````~Barrier@{$\sim$Barrier}}
+\index{````~Barrier@{$\sim$Barrier}!Barrier@{Barrier}}
+\doxysubsubsection{\texorpdfstring{$\sim$Barrier()}{~Barrier()}}
+{\footnotesize\ttfamily Barrier\+::$\sim$\+Barrier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+barrier destructor. deletes mutex, barrier\+One, barrier\+Two 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBarrier_a83a9d2e85e98b3d2081538bf0da29b60}\label{classBarrier_a83a9d2e85e98b3d2081538bf0da29b60}} 
+\index{Barrier@{Barrier}!wait@{wait}}
+\index{wait@{wait}!Barrier@{Barrier}}
+\doxysubsubsection{\texorpdfstring{wait()}{wait()}}
+{\footnotesize\ttfamily void Barrier\+::wait (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+threads wait until a barrier has been reached 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Barrier.\+h\item 
+Barrier.\+cpp\end{DoxyCompactItemize}

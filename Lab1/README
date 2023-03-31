@@ -22,3 +22,4 @@ README(You are Reading it)
 output: this is the text file that is used as the executable
 
 7. Any other relevent information
+demonstrates the use of signalling using semaphores and threading

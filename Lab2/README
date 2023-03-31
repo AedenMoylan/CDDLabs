@@ -20,4 +20,5 @@ Semaphore.h and Semaphore.cpp are used to control access to a common resource by
 README(You are Reading it)
 output: this is the text file that is used as the executable
 
-7. Any other relevent information
+7. Any other relevent information:
+shows the use of rendezvous with threading

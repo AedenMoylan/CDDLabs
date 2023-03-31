@@ -5,7 +5,7 @@ GNU GENERAL PUBLIC LICENSE
 Aeden Moylan
 
 3. How to install project
-right click on the folder "Lab3" and click "Open In Terminal"
+right click on the folder "Lab4" and click "Open In Terminal"
 in the terminal type ./output which will run the project.
 
 4. List of any required Libraries, platform issues, etc.
@@ -15,10 +15,10 @@ c++
 
 6. List of files and what they contain
 makefile: used to compile the files.
-main.cpp is used to demonstrate mutual exclusion
+main.cpp is used mostly to call the barrier class functions to demonstrate barriers
+Barrier.h and Barrier.cpp is a class that is used to show how barriers can work for multiple threads
 Semaphore.h and Semaphore.cpp are used to control access to a common resource by the threads.
 README(You are Reading it)
 output: this is the text file that is used as the executable
 
-7. Any other relevent information:
-shows the use of mutual exclusion with threading
+7. Any other relevent information
